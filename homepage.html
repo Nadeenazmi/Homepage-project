@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+        * {
+            font-family: cursive !important;
+        }
+        .text-primary {
+            color: #a58595 !important;
+        }
+        .text-info {
+            color: #a58595 !important;
+        }
+        .mySlides {
+            display: none;
+        }
+        .w3-section, .w3-code {
+            margin-top: 0px !important;
+            margin-bottom: 16px !important;
+        }
+        .bg-dark {
+            background-color: #e4d1e2 !important;
+        }
+        .bg-light {
+            background-color: #d17dac38 !important;
+        }
+        a {
+            color: #343a40;
+            text-decoration: none;
+            background-color: transparent;
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: #343a40;
+        }
+
+        .navbar-light .navbar-brand {
+            color: #343a40 !important;
+        }
+
+        .navbar-dark .navbar-nav .nav-link {
+            color: #545b62;
+        }
+        .navbar-dark .navbar-brand {
+            color: #495057 !important;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: white;
+        }
+        .glow {
+            font-size: 40px;
+            color:white ;
+            text-align: center;
+            animation: glow 1s cubic-bezier(0.42, 0, 0, 1.58) infinite alternate;
+        }
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="d (2).png" alt="DONUTS SHOP" style="width:40px;">
+
+        <a class="navbar-brand" href="#">DONUTS SHOP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MENU</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="w3-content w3-section" style="max-width:70%">
+        <img class="mySlides" src="2 (2).jpg" style="width:100%">
+        <img class="mySlides" src="5.jpg" style="width:100%">
+        <img class="mySlides" src="7.jpg" style="width:100%">
+            </div>
+    <h3 class="glow">WELCOME TO DONUTS SHOP</h3>
+    <!--body-->
+    <div class="container" style="margin-top:20px">
+        <div class="row">
+            <div class="col-auto">
+                <div class="card" style="margin-bottom:2px">
+                    <!--<div class="card-header bg-white"><h3 class="text-primary">Hurry up to buy before the offer ends</h3></div>-->
+                    <div class="card-body"><img src="111O.png" class="card-text" alt="imgpost" /></div>
+                    <div class="card-footer">
+                        <H5>
+                            Discount on all menu on the site and all types of donuts, milkshakes and chocolates. The offer is for a week from today. Hurry up to buy and win the special offer on our website. Welcome to our valued customers.
+                        </H5>
+                        <!--<button type="button" class="btn btn-info">read more</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--card-->
+    <div class="card-deck">
+        <div class="card">
+            <img src="nnn.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">DONUTS</h5>
+                <p class="card-text">All kinds of donuts, stuffed and not stuffed with fruits, chocolate, peanut butter and pistachio butter..</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="ww.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">MILKSHAKE </h5>
+                <p class="card-text">All kinds of milkshakes with fruits and chocolate with toppings and cream.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="bb.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">CHOCOLATE</h5>
+                <p class="card-text">All kinds of chocolate, stuffed and not stuffed with nougat and pillow nuts.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var myIndex = 0;
+        carousel();
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4000); // Change image every 4 seconds
+        }
+
+    </script>
+    <script src="../Scripts/jquery-3.0.0.min.js"></script>
+    <script src="../Scripts/bootstrap.min.js"></script>
+</body>
+</html>
